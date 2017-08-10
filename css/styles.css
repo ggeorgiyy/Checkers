@@ -40,42 +40,35 @@ img {position: absolute;
 	width: 100%;
 }
 
-.checker {
-	height: 100%;
-	width: 100%;
-	background-color: white;
+.checker1 {
+	height: 90%;
+	width: 90%;
+	margin: 5%;
+	background-color: red;
 	border-radius: 50%;
+	border: 2px solid black;
 	position: absolute;
 }
 
-.one:nth-child(2n+1) {background-color: red;}
+.checker2 {
+	height: 90%;
+	width: 90%;
+	margin: 5%;
+	background-color: white;
+	border-radius: 50%;
+	border: 2px solid black;
+	position: absolute;
+}
+
+.one:nth-child(2n+1) {background-color: blue;}
 
 .one:nth-child(2n) {background-color: white;}
 
 
 .two:nth-child(2n+1) {background-color: white;}
 
-.two:nth-child(2n) {background-color: red;}
-
-
-/*.one li:nth-child(2n+1) {background-color: red;}
-
-.one li:nth-child(2n) {background-color: white;}
+.two:nth-child(2n) {background-color: blue;}
 
 
 
-table tr:nth-child(even) td:nth-child(odd) {background: #CCC}
-table tr:nth-child(odd) td:nth-child(even) {background: #CCC}
-
-*/
-
-
-
-
-
-
-
-
-/*--.two li:nth-child(2n+1) {background-color: white;}
-
-.two li:nth-child(2n) {background-color: red;}--/
+/*----/
