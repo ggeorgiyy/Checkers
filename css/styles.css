@@ -1,4 +1,4 @@
-body {background-color:  #2C80AC;}
+body {background-color: white;}
 
 
 section {
@@ -40,22 +40,34 @@ img {position: absolute;
 	width: 100%;
 }
 
-.checker {
-	height: 100%;
-	width: 100%;
-	background-color: white;
+.checker1 {
+	height: 90%;
+	width: 90%;
+	margin: 4%;
+	background-color: red;
 	border-radius: 50%;
 	position: absolute;
 }
 
-.one:nth-child(2n+1) {background-color: red;}
+.checker2 {
+	height: 90%;
+	width: 90%;
+	margin: 4%;
+	background-color: white;
+	border-color: 2px solid black;
+	border-radius: 50%;
+	position: absolute;
+}
+
+
+.one:nth-child(2n+1) {background-color: blue;}
 
 .one:nth-child(2n) {background-color: white;}
 
 
 .two:nth-child(2n+1) {background-color: white;}
 
-.two:nth-child(2n) {background-color: red;}
+.two:nth-child(2n) {background-color: blue;}
 
 
 /*.one li:nth-child(2n+1) {background-color: red;}
