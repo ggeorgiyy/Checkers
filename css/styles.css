@@ -69,25 +69,3 @@ img {position: absolute;
 
 .two:nth-child(2n) {background-color: blue;}
 
-
-/*.one li:nth-child(2n+1) {background-color: red;}
-
-.one li:nth-child(2n) {background-color: white;}
-
-
-
-table tr:nth-child(even) td:nth-child(odd) {background: #CCC}
-table tr:nth-child(odd) td:nth-child(even) {background: #CCC}
-
-*/
-
-
-
-
-
-
-
-
-/*--.two li:nth-child(2n+1) {background-color: white;}
-
-.two li:nth-child(2n) {background-color: red;}--/
